@@ -18,7 +18,7 @@ header {
     left: 50%;
     top: 0;
     z-index: 1;
-   
+
 }
 
 .header_ul {
@@ -52,22 +52,25 @@ header {
 
 /* section1 */
 .section1 {
-   height: 640px;
+    height: 640px;
     position: relative;
-  
+
 }
-.section1_cover{
+
+.section1_cover {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.section1_content{
-position: absolute;
-top:50%;
-left: 50%;
-transform: translate(-50%,-50%);
+
+.section1_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
+
 .section1_title {
     color: #FFF;
     font-family: 'Inter', sans-serif;
@@ -78,41 +81,79 @@ transform: translate(-50%,-50%);
     line-height: 56px;
     margin-bottom: 32px;
 }
-.section1_button{
-    border: 3px solid #FCC21B;
-box-shadow: 0px 4px 4px 0px #372D23;
-padding: 12px 38px;
-background-color: transparent;
-color: #FFF;
 
-font-family: Inter;
+.section1_button {
+    border: 3px solid #FCC21B;
+    box-shadow: 0px 4px 4px 0px #372D23;
+    padding: 12px 38px;
+    background-color: transparent;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+/* section2 */
+.section2 {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    padding: 80px;
+}
+
+.section2_div {
+    height: 320px;
+    position: relative;
+
+}
+
+.card_box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    height: 88px;
+    padding: 28px 47px;
+    width: 100%;
+    background-color: rgba(55, 45, 35, .6);
+    backdrop-filter: blur(5px);
+    column-gap: 4px;
+}
+
+.section2_card_img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2_title {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* article */
+article {}
+
+.article_title {
+    color: #372D23;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.article_text{
+    color: #855C52;
+text-align: center;
+font-family: 'Inter', sans-serif;
 font-size: 20px;
 font-style: normal;
-font-weight: 700;
-line-height: 28px;
-}
-/* section2 */
-.section2{
-display: flex;
-column-gap: 40px;
-justify-content: center;
-}
-.section2_div{
-height: 320px;
-    
-}
-.card_box{
-
-}
-.section2_card_img{
-    width: 100%;
-height: 100%;
-}
-.section2_title{
-    color: #FFF;
-font-family: 'Inter', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px;
+font-weight: 400;
+line-height: 28px; /* 140% */
 }
